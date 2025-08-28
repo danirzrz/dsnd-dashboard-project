@@ -11,6 +11,3 @@ pandas==2.3.2
 pytest
 flake8
 ipython
-#### Add text to install the python-package here
-# Local Python package
-employee-events @ file://./python-package/dist/employee_events-0.1.0.tar.gz
