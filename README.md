@@ -10,11 +10,11 @@ This project is a dashboard application for visualizing and analyzing employee e
 - pip
 
 ## Project Structure
+```
 ├── README.md
 ├── assets
 │   ├── model.pkl
 │   └── report.css
-├── env
 ├── github/workflows
 │   ├── python-app.yml
 ├── python-package
@@ -46,8 +46,7 @@ This project is a dashboard application for visualizing and analyzing employee e
 ├── start
 ├── tests
     └── test_employee_events.py
-├── venv/
-├── wheels/
+
 ```
 
 ### Database Schema (`employee_events.db`)
