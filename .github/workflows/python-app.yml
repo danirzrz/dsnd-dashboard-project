@@ -32,13 +32,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # Step 4: Build and install the local Python package
-    - name: Build and install local package
-      run: |
-        cd python-package
-        python setup.py sdist
-        pip install ./dist/employee_events-0.1.0.tar.gz
-        cd ..
+    # Step 4: Install the local package
+    - name: Install local package
+      run: pip install ./python-package
 
     # Step 5: Run tests
     - name: Run pytest
